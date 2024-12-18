@@ -1,0 +1,235 @@
+html{
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*header*/
+header{
+    position: fixed;
+    width: 100%;
+    height: 108px;
+    background-color: #202020;
+    box-sizing: border-box;
+    padding: 0px 131px 0px 131px;
+    z-index: 1;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+#navigationButtons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 100%;
+}
+
+#logo{
+    height: 80px;
+    margin-left: -24px;
+}
+
+#logInButton{
+    all: unset; /* Removes all default button styles */
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    width: 119px;
+    height: 51px;
+    border-radius: 70px;
+    background: linear-gradient(to right, #794DFD, #3E3BBF);
+}
+
+#cardsLink{
+    all: unset; /* Removes all default button styles */
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    width: 119px;
+    height: 51px;
+}
+
+/*--------------------------landing------------------------*/
+
+#container{
+    display: flex;
+    margin-top: 108px;
+    width: 100%;
+    height: 100vh;
+    background-color:#191919;
+    background-image: url(resources/Frame\ 5\ \(1\).png),url(resources/Frame\ 5\ \(1\).png);
+    background-size: 700px;
+    background-repeat:no-repeat;
+    background-position: top left,bottom right;
+    align-items: center;
+
+}
+
+#landings{
+    margin-top: 50px;
+    margin-left: 131px;
+    margin-right: 131px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: calc(100% - 262px);
+    margin-bottom: 60px;
+}
+
+#left{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 900px;
+    height: 700px;
+    border: 5px solid #794DFD;
+    border-radius: 30px;
+    background-color: none;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 700px;
+    background-color: none;
+}
+
+#rightInfo{
+    display: flex;
+    padding: 0px 20px 20px 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    border: 5px solid #794DFD;
+    border-radius: 30px;
+    background-color: none;
+}
+
+#second,#third{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+
+#first,#fourth{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fourth{
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+#firstRight,#firstLeft{
+    height: 100%;
+    width: 50%;
+}
+
+#firstRight{
+    padding-left: 107px;
+}
+
+h1{
+    color: #aaaaaa;
+}
+
+h2{
+    margin-top: 0;
+    font-weight: 100;
+    color: #aaaaaa;
+}
+
+input{
+    all: unset;
+    padding-left: 10px;
+    color: aliceblue;
+    height: 50px;
+    border: 3px solid #794DFD;
+    border-radius: 15px;
+}
+
+#owner,#cvv{
+    width: 300px;
+}
+
+#cancel,#confirm,#confirm2{
+    all: unset; /* Removes all default button styles */
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+    width: 119px;
+    height: 51px;
+    border-radius: 70px;
+    background: linear-gradient(to right, #794DFD, #3E3BBF);
+}
+
+#cancel{
+    background: linear-gradient(to right, #4b4b4b, #555555);
+}
+
+#rightRowOne,#rightRowTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+#l,#r,#ri{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 47%;
+}
+
+#ri{
+    display: flex;
+    justify-content:flex-end;
+    align-items:start;
+    height: 100%;
+    width: 47%;
+}
+
+#logoBut{
+    all: unset;
+    cursor: pointer;
+}
+
